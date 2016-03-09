@@ -1,9 +1,46 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>CNN Twitter Challenge</title>
+
+	<script type="text/javascript" src="js/TwitterWidget.js"></script>
+	
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="js/feed.js"></script>
+	
 </head>
+
 <body>
-	<input>Find</input>
+
+	<div class="container-fluid">
+		<div class="row">
+
+			<div class="columns-sm-6">
+				<input id="keywordInput" type="text" value="CNN" hint="enter twitter account..."></input>
+				<input type="button" value="Get Feed" onclick="getFeed();"></input>
+			</div>
+
+			<div class="columns-sm-6">
+				<div id="feed">
+					<a target="_blank" data-widget-id="706224359510118400" data-screen-name="CNN" href="https://twitter.com/CNN" class="twitter-timeline"> </a>
+					<script type="text/javascript">twttr.widgets.load(document.getElementById("feed"));</script>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
 </body>
+
 </html>
