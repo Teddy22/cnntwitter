@@ -1,16 +1,28 @@
-alert('feed');
-
-function getFeed() {
-	var keyword = $("input#keywordInput").val();
-	var feed = $("div#feed");http://www.manutd.com/
-	feed.text(keyword);
+function getFeed(obj) {
+	console.log('get feed button click event');
+	
+	if(obj) {
+		var keyword = $(obj).text();
+	}
+	else {
+		var keyword = $("input#keywordInput").val();
+	}
+		
+	var feed = $("div#feed");
 
 	$.post("/twitter/feed/account/" + keyword, function(data, status) {
 		if(status=='success')
-			//
+			feed.html(data);
 		else
-			alert('error getting feed');
+			alert('error getting twitter feed');
 	});
-	// alert(keyword);
-
 }
+
+var assignHandlers = function() {
+	var items = $('nav');
+
+	console.log(items.children());
+	
+}
+
+assignHandlers();

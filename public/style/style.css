@@ -1,0 +1,15 @@
+body {
+	background-color: #D7DADA;
+	color:red;
+}
+
+.container-fluid {
+	display: block;
+	margin: auto;
+}
+
+.center-block {
+	text-align: center;
+	margin: auto auto;
+	width:100%;
+}

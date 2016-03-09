@@ -1,2 +1,8 @@
-a(class="twitter-timeline" href="www.google.com")
-	h1 = keyword
+
+a(class="twitter-timeline" target="_blank" data-widget-id="706224359510118400" data-screen-name="#{keyword}"  href="https://twitter.com/#{keyword}") 
+	Tweets by @#{keyword}
+
+script(type="text/javascript").
+	twttr.widgets.load(document.getElementById("feed"));
+
+
