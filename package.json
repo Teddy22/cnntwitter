@@ -1,0 +1,23 @@
+{
+  "name": "cnntwitter",
+  "version": "1.0.0",
+  "description": "single web page displaying twitter feed using the Twitter API and NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teddy22/cnntwitter.git"
+  },
+  "author": "Teddy Wachira Mwangi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Teddy22/cnntwitter/issues"
+  },
+  "homepage": "https://github.com/Teddy22/cnntwitter#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
+  }
+}
