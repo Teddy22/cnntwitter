@@ -21,5 +21,5 @@ You need to have Node installed on your local machine to follow these instructio
 ## View app results on browser and log messages at the console
 App will display on your localhost webpage at <a href="http://localhost:8085">http://localhost:8085</a>
 
-## View Live demo at:
+## View live demo at:
 http://teddywachira.com/n/twitter/feed/
