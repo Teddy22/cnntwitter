@@ -1,4 +1,4 @@
-# cnntwitter
+# cnntwitter (A NodeJS App)
 
 ## Description
 A NodeJS app that opens to a single webpage which displays a twitter feed based on default or input Twitterhandles.
