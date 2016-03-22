@@ -4,7 +4,7 @@
 A NodeJS app that opens to a single webpage which displays a twitter feed based on default or input Twitterhandles.
 
 ## Requirements
-You need to have Node installed on your local machine to follow these instructions. You may also need git. Ensure you can run git, node and npm command from your terminal.
+You need to have Node installed on your local machine to follow these instructions. You may also need git. Ensure you can run <code>git</code>, <code>node</code> and <code>npm</code> commands from your terminal.
 
 ## Download to your local computer
 <code>git clone https://github.com/Teddy22/cnntwitter</code>
